@@ -14,9 +14,9 @@ alert("This is a test");
 
 //Declare variables
 //pizza*slices/people
-var slices = 16;
-var people = 20;
-var pizzas = 8;
+var slices = 8;
+var people = 10;
+var pizzas = 4;
 
 var slicesAte = (pizzas * slices) / people;
 
@@ -60,6 +60,7 @@ var totalWithoutTax = originalPrice - whatIsDiscount;
 var whatIsTax = totalWithoutTax * appliedSalesTax;
 var totalWithTax =  totalWithoutTax + whatIsTax;
 
+//Spaces for the console
 var space = " ";
 
 console.log("Your"+ space + description + space + "was originally" + space + "$" + originalPrice + ", but after a" + space + discount + "%"+ space + "discount" + space + ", it is now" + space + "$" + totalWithoutTax + space + "without tax," + space + "and" + space + "$" + totalWithTax + space + "with tax." );
