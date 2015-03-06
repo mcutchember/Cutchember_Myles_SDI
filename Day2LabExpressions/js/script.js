@@ -31,13 +31,36 @@ console.log("Sparky got" + " " + sparkyAte + " " + "slices of pizza");
 
 //Average Shopping Bill
 
+//The total of groceries for each week.
 var week1 = 200;
 var week2 = 150;
 var week3 = 220;
 var week4 = 200;
 var week5 = 100;
 
+//Declaring variables.
 var total = week1 + week2 + week3 + week4 + week5;
 var average = total / 5;
 
-console.log("You have spent a total of" +  " " + "$"+ total + " " + "on groceries over 5 weeks." + " " + "That is a average of" + " " + "$" + average + " "+"per week" );
+console.log("You have spent a total of" +  " " + "$"+ total + " " + "on groceries over 5 weeks." + " " + "That is a average of" + " " + "$" + average + " " +"per week" );
+
+//Discounts
+
+//Declare variables
+var originalPrice = 200;
+var discount = 10;
+var appliedDiscount =  discount  / 100;
+var description = "cheese";
+var salesTax = 5;
+var appliedSalesTax= salesTax / 100;
+
+var whatIsDiscount = originalPrice * appliedDiscount;
+
+var totalWithoutTax = originalPrice - whatIsDiscount;
+var whatIsTax = totalWithoutTax * appliedSalesTax;
+var totalWithTax =  totalWithoutTax + whatIsTax;
+
+var space = " ";
+
+console.log("Your"+ space + description + space + "was originally" + space + "$" + originalPrice + ", but after a" + space + discount + "%"+ space + "discount" + space + ", it is now" + space + "$" + totalWithoutTax + space + "without tax," + space + "and" + space + "$" + totalWithTax + space + "with tax." );
+

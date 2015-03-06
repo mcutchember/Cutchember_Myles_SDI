@@ -1,9 +1,4 @@
-/*
-Myles Cutchember
-March 5, 2015
-Section 00
-Day 2: Intro
- */
+
 
 //alert("Testing to see if connected.");
 
