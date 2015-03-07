@@ -51,3 +51,23 @@ console.log("The total # of oranges picked is "+totalOranges+".");
 var averageOranges= totalOranges/orangesPicked.length;
 console.log("The average number of oranges picked per day is "+averageOranges);
 
+
+// Create an array of fruit
+var fruitBowl = ["apple", "mango", "grape", "banana"];
+console.log(fruitBowl);
+
+// push - add into the next open spot
+//dot syntax - use a period
+fruitBowl.push("strawberry");
+console.log(fruitBowl);
+
+fruitBowl.push("pineapple");
+console.log(fruitBowl);
+
+// pop - removes the last item form the array
+// it also returns that item
+var caughtItem = fruitBowl.pop();
+
+console.log(fruitBowl);
+console.log(caughtItem);
+
