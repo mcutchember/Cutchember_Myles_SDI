@@ -9,29 +9,32 @@
 
 alert("Welcome to your digital music calculator.\n \nWe will learn about your spending on iTunes.");
 
-// Finding out how much were the total cost of the music purchased
+// Finding out how much were the total cost of the music purchased.
 var numofSongs = prompt("We will start by entering the cost of songs: ");
 
-var costofSongs = prompt("Cool, now how many songs did you buy? ");
+var costofSongsWeekOne = prompt("Cool, now how many songs did you buy in Week 1? ");
+
+var costofSongsWeekTwo = prompt("Now, how many songs did you buy in Week 2? ");
+
+var costofSongsWeekThree = prompt("Week 3? ");
+
+var costofSongsWeekFour = prompt("Finally, Week 4? ");
+
+//Creating Array for Weekly Spending
 
 var totalCost = parseInt(costofSongs) * parseInt(numofSongs);
 
 console.log("Got it, the total cost of music purchased was "+ "$"+ totalCost);
 
-// The total of money spent monthly
+var totalWeek = totalCost * 7;
 
-alert("Now, we are going to find out the average money we spent on music in a month at this rate.");
+console.log("At this rate, if you bought music everyday," +
+"you'll spend "+ "$"+totalWeek+ " in a week");
 
-var weekOne = prompt("Week 1 totals:");
-var weekTwo = prompt("Week 2 totals:");
-var weekThree = prompt("Week 3 totals:");
-var weekFour = prompt("Week 4 totals:");
+totalWeek *= 4;
 
-// Converting into array
+console.log("and $"+totalWeek+" in a month.");
 
-var monthlySpending = [parseInt(weekOne), parseInt(weekTwo), parseInt(weekThree), parseInt(weekFour)];
+// The total of money spent yearly
 
-
-
-
-console.log("Great!, this what you spent each week"+monthlySpending);
+alert("Now, we are going to find out the average money we spent on music in a month at this.");
