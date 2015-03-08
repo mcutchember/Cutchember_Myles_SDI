@@ -7,34 +7,35 @@
 
 //alert("Running thru the 6 wit my WOES");
 
+//Welcome message
 alert("Welcome to your digital music calculator.\n \nWe will learn about your spending on iTunes.");
 
+//Creating Array
+var weeklyPurchased = [];
+
 // Finding out how much were the total cost of the music purchased.
-var numofSongs = prompt("We will start by entering the cost of songs: ");
+var costofSongs = prompt("We will start by entering the cost of a song: ");
 
-var costofSongsWeekOne = prompt("Cool, now how many songs did you buy in Week 1? ");
+// Assigning Array
+weeklyPurchased[0] = prompt("Cool, now how many songs did you buy in Week 1? ");
 
-var costofSongsWeekTwo = prompt("Now, how many songs did you buy in Week 2? ");
+weeklyPurchased[1] = prompt("Now, how many songs did you buy in Week 2? ");
 
-var costofSongsWeekThree = prompt("Week 3? ");
+weeklyPurchased[2] = prompt("Week 3? ");
 
-var costofSongsWeekFour = prompt("Finally, Week 4? ");
+weeklyPurchased[3] = prompt("Finally, Week 4? ");
 
-//Creating Array for Weekly Spending
+//Calculated weekly purchases
 
-var totalCost = parseInt(costofSongs) * parseInt(numofSongs);
+var totalCost = parseInt(weeklyPurchased[0]) + parseInt(weeklyPurchased[1]) + parseInt(weeklyPurchased[2]) + parseInt(weeklyPurchased[3]) * parseInt(costofSongs);
 
-console.log("Got it, the total cost of music purchased was "+ "$"+ totalCost);
+console.log("You have spent a total of "+"$"+totalCost+ " on music this month.");
 
-var totalWeek = totalCost * 7;
+// Calculating annual cost at this rate
+totalCost *= 12;
 
-console.log("At this rate, if you bought music everyday," +
-"you'll spend "+ "$"+totalWeek+ " in a week");
+console.log("At this rate you will spend "+ "$"+totalCost+" annually.");
 
-totalWeek *= 4;
 
-console.log("and $"+totalWeek+" in a month.");
 
-// The total of money spent yearly
 
-alert("Now, we are going to find out the average money we spent on music in a month at this.");
