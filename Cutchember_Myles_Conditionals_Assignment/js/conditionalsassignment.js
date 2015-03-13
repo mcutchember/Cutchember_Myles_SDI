@@ -7,44 +7,53 @@
 
 alert("Welcome to the tip calculator.\n\nWe are going to determine how much each person has to pay for tip.");
 
-// Declare variables & Initiate prompts
-var people = prompt("How many people present?");
+// Declare variables & Initiate prompt
+var people = prompt("How many people ate?");
 var tipRate =15/100;
 var badBehavior = tipRate - 5/100;
 var goodBehavior = tipRate + 5/100;
 
-
+//Making sure user inputs a number
 if(people == "" || isNaN(people)){
 
     // Reprompt the user for the information
-    // Give the user a 2nd chance
-    people = prompt("Please enter a number\nEnter how many people present");
+    people = prompt("Please enter a number\nEnter how many people ate.");
 }
 
 var cost = prompt("What is the cost of the meal?");
 
+//Making sure user input a number
 if(cost == "" || isNaN(cost)){
 
     // Reprompt the user for the information
-    // Give the user a 2nd chance
-    cost = prompt("Please enter a number\nEnter how many people present");
+    cost = prompt("Please enter a number\nEnter the cost of the meal?");
 }
 
-if(people == 1){
-    // Finding out the user experience
-    var experience = prompt("Was your experience good or bad?");
+// Finding out the user experience
+var experience = prompt("Was your experience good or bad?");
+experience = experience.toLowerCase();
+// Making sure the user only input good or bad
+if(experience !="good" && experience != "bad"){
+    experience = prompt("Please only enter good or bad.\nHow was your experience?");
     experience = experience.toLowerCase();
-    // Making sure the user only input good or bad
-    if(experience !="good" && experience != "bad"){
-        experience = prompt("Please only enter good or bad.\nHow was your experience?");
-        experience = experience.toLowerCase();
-    }
+}
+    //Calculate cost of tip for you only
+if(people == 1){
 
-    // Create ternary
+    // Create ternary to calculate cost based on experience
     // (condition to test) ? code to run if true : code to run if false;
     (experience === "good") ? cost = goodBehavior*=parseInt(cost) : cost = badBehavior*=parseInt(cost);
 
 
-    console.log("Each person will have to put up "+ "$"+cost+" for the tip.")
+    console.log("Based on your experience, it'll be nice to put up "+ "$"+(cost)+" for the tip.");
 
+    //Calculate cost of tip for multiple people
+}else if(people > 1){
+    // Create ternary to calculate cost based on cost of meal, experience, and amount of people
+    (experience === "good") ? cost = (goodBehavior*=parseInt(Math.round(cost))) / people : cost = (badBehavior*=parseInt(Math.round(cost))) / people;
+    console.log("Based on your experience, it'll be nice for each person to put up "+ "$"+Math.round(cost)+" for the tip.")
+
+}else{
+
+    console.log("So your just going to run out on the bill?")
 }
