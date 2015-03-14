@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b961892-bc54-495b-97ac-5eeadf84692f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day6/js/day6forloops.js" afterPath="$PROJECT_DIR$/Day6/js/day6forloops.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7b961892-bc54-495b-97ac-5eeadf84692f" name="Default" comment="" />
     <ignored path="Cutchember_Myles_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,14 +34,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day6forloops.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day6forloops.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day6/js/day6forloops.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8727273" vertical-offset="0" max-vertical-offset="825">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
               <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day6validation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day6/js/day6validation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day6validation.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day6/day6validation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.09363296" vertical-offset="0" max-vertical-offset="801">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,6 +110,8 @@
         <option value="$PROJECT_DIR$/Day6/js/day6whileloop.js" />
         <option value="$PROJECT_DIR$/Day6/day6forloops.html" />
         <option value="$PROJECT_DIR$/Day6/js/day6forloops.js" />
+        <option value="$PROJECT_DIR$/Day6/js/day6validation.js" />
+        <option value="$PROJECT_DIR$/Day6/day6validation.html" />
       </list>
     </option>
   </component>
@@ -632,11 +651,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day6/js/day6forloops.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8727273" vertical-offset="0" max-vertical-offset="825">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day6/js/day6validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day6/day6validation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09363296" vertical-offset="0" max-vertical-offset="801">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
