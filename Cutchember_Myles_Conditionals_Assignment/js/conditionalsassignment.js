@@ -55,7 +55,7 @@ if(people == 1){
 
 }else{
 
-    console.log("So your just going to run out on the bill?")
+    console.log("So you just went to a restaurant and didn't eat?")
 }
 
 //Testing Testing Testing
