@@ -46,5 +46,5 @@ do{
 
     ///Change the counting variable
     i++
-    
+
 }while(i<10);
