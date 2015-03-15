@@ -29,7 +29,7 @@ while(isNaN(num1) || num1===""){
 
 var userInput = prompt("Please enter yes or no");
 // Convert to lower case
-    userInput = userInput.toLowerCase()
+    userInput = userInput.toLowerCase();
 
 // Validate
 while(userInput != "yes" && userInput != "no" && userInput!="nope"){
