@@ -10,7 +10,6 @@
 //Do While Loop Example
 
 var beer = prompt("How much brew do you have?");
-console.log("");
 
 while(isNaN(beer) || beer ==="") {
     //Re-prompt user
