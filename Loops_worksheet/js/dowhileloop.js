@@ -9,10 +9,17 @@
 
 //Do While Loop Example
 
-var beer = prompt("How much beer do you have");
+var beer = prompt("How much brew do you have?");
+console.log("");
+
+while(isNaN(beer) || beer ==="") {
+    //Re-prompt user
+    beer = prompt("Please ONLY type a number");
+}
+
 do {
     beer -= 1;
-    console.log("You have "+beer+" left");
+    console.log("Grab a drink, you have "+beer+" left");
 } while (beer >= 1);
 
 console.log("Time to go get more brews.");
