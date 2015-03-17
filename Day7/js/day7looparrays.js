@@ -55,7 +55,6 @@ for(var j=0; j<bill.length; j++){
 
 
 
-
 }
 
 console.log("The total is $"+total);
