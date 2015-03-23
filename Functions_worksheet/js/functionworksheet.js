@@ -22,7 +22,7 @@ function circleCircum(r){
 }
 
 //function call this circleArea
-// Create a variable to catch the return area
+// Create a variable to catch the ret3urn area
 
 var circEqual = circleCircum(radius);
 
