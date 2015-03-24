@@ -7,45 +7,36 @@
 
 //alert("Running thru the 6 wit my WOES");
 
-    //We are going to figure out the cost for the club
 
-// Create function for price
+function longestWord(w1,w2,w3){
 
+     w1 = prompt("Enter a word");
+     w2 = prompt("Enter another word");
+     w3 = prompt("Enter a final word");
 
+    if(w1.length > w2.length && w1.length > w3.length){
+        return w1;
 
+    }else if(w2.length > w1.length && w2.length > w3.length){
+        return w2;
 
-
-var dressCode = function() {
-
-    var attire = prompt("Do you have on proper casual attire? ");
-
-    if (attire != "yes" && attire != "no") {
-
-        // Re-prompt
-        attire = prompt("Please only enter in yes or no");
-
+    }else{
+        return w3
     }
-
-    if(attire === "no"){
-
-        console.log("Sorry, please change your clothes into the right gear.")
-
-    }
-
-    return dressCode();
-};
-
-function calcSales(a,b,c){
-
-    a = prompt("");
-    b = prompt("");
-    c = prompt("");
-
-    return a*79 + b *129 + c*699;
-
-
 
 }
 
-dressCode();
-calcSales(a,b,c);
+
+var answer =longestWord();
+
+console.log("The longest work out of the 3 you entered is "+answer);
+
+var howLong = function(){
+
+     return answer.length
+
+};
+
+var letters = howLong();
+
+console.log("It has "+letters+" letters");
