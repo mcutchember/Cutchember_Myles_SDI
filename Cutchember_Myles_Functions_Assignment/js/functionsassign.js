@@ -5,7 +5,7 @@
  * Function Assignment
  */
 
-alert("Welcome to the letter generator\nEnter 3 words and we will tell you which word is the longest.");
+alert("Welcome\n Enter the first 3 words that come to mind.\nFind out which word has the most letters.");
 
 
 // User input 3 words, and use those 3 words are parameters.
@@ -47,7 +47,7 @@ function longestWord(w1,w2,w3){
 // Calling function and assigning to variable
 var answer =longestWord();
 
-console.log("The longest work out of the 3 you entered is "+answer);
+console.log("The longest word you entered is "+answer);
 
 // Creating anonymous function to output length of longest word.
 var howLong = function(){
@@ -61,8 +61,6 @@ var letters = howLong();
 
 console.log("It has "+letters+" letters");
 
-//
-//
-//
-//
-//
+// tray, spoon, seat ===> "the longest word you entered is spoon, it has 5 letters."
+// breath. poison, confusion ====> "the longest word you entered is confusion, it has 9 letters."
+// amoeba, island, guideline =====> "the longest word you entered is guideline, it has 9 letters."
