@@ -20,7 +20,7 @@ while(cost === "" || isNaN(cost)){
 var discount = prompt("What is the discounted percent?");
 
 //Validate
-while(discount < 0 && discount > 100 || isNaN(discount) || discount===""){
+while(discount < 0 || discount > 100 || isNaN(discount) || discount===""){
     discount = prompt("Please do not leave blank, enter a number between 0 -100.\nWhat is the discount percent?");
 }
 
